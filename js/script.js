@@ -88,7 +88,9 @@ function verificaCampo(campo) {
 
   if (!validadorDeInput) {
     mensagemErro.textContent = mensagem;
+    campo.setAttribute("campo-erro", true);
   } else {
     mensagemErro.textContent = "";
+    campo.removeAttribute("campo-erro");
   }
 }

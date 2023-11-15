@@ -73,9 +73,12 @@
     width: 100%;
     padding: 1em;
     margin-top: .5em;
+}
+/* Atributo para campos com erros */
+[campo-erro] {
+    border: 2px solid red;
 
 }
-
 .campo__escrita--menor {
     width: 50%;
 }
